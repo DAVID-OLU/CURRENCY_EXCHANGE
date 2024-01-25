@@ -1,0 +1,72 @@
+/* NAVIGATION STYLE */
+.navigation-color {
+    color: white;
+}
+
+.logo {
+    color: #28FFBF;
+}
+
+/* HOMEPAGE STYLE */
+body {
+    height: 100%;
+    margin: 0;
+}
+.bg {
+    /* The image URL */
+    background-image: url("/images/A2.webp");
+    /* Full height and width */
+    height: 100vh;
+    width: 100vw;
+    /* Center and scale the image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 780px;
+}
+.home-body {
+    color: white;
+}
+.heading-title {
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 25px;
+}
+
+.input-info {
+    border-radius: 8px;
+    border: 1px solid grey;
+  }
+
+.check-button {
+    padding: 6px 18px 6px 18px;
+    background-color: rgb(49, 47, 47);
+    color: #28FFBF;
+    border-radius: 7px;
+    border: 1px solid rgb(49, 47, 47);
+}
+.body-color {
+    color: #9EFFA9;
+}
+
+@media(min-width: 200px) and (max-width: 320px) {
+    .heading-title {
+        text-align: center;
+        padding: 10px;
+        padding-bottom: 40px;
+    }
+    
+    .input-info {
+        border-radius: 5px;
+        border: 1px solid grey;
+      }
+    
+    .check-button {
+        padding: 4px 15px 4px 15px;
+        background-color: rgb(49, 47, 47);
+        color: #28FFBF;
+        border-radius: 5px;
+        border: 1px solid rgb(49, 47, 47);
+    }
+
+}
